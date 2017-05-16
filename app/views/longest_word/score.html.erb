@@ -1,0 +1,7 @@
+<p>******** Now your results ********</p>
+<p>Your word: <%= @word %></p>
+<p>Time Taken to answer: <%= @time.to_i %> s</p>
+<p>Your score: <%= @score[0] %> pts</p>
+<p>Message: <%= @score[1] %></p>
+
+<%= link_to "Replay", game_path %>
